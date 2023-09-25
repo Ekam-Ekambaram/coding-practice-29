@@ -1,0 +1,19 @@
+/* Write your CSS code here */
+.products-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.products-img {
+  height: 400px;
+  width: 300px;
+}
+@media screen and (max-width: 576px) {
+  .products-img {
+    height: 300px;
+    width: 150px;
+  }
+}
